@@ -108,8 +108,8 @@ export const TileImage = styled.div`
         padding-right: 0rem;
         }
     img{
-        width:53vh;
-        height:64vh;
+        width:28rem;
+        height:38rem;
         object-fit:cover;
         -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
         mask-image: linear-gradient(to bottom, black 50%, transparent 100%);

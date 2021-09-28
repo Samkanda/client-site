@@ -57,7 +57,7 @@ const Services = styled.div`
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: start;
-    min-height: 60vh;
+    min-height: 25rem;
 }
     
 `;
@@ -82,11 +82,11 @@ export const TileImage4 = styled(motion.div)`
         display: none;
     }
     @media (max-width: 1500px) {
-        padding-top:5vw;
+        padding-top:2rem;
         padding-left:25vw;
         img{
         width:20vw;
-        height:25vw;
+        height:20rem;
         display: initial;
     }
 }
@@ -134,11 +134,11 @@ export const TileImage2 = styled(motion.div)`
         object-fit:cover;
     };
     @media (max-width: 1500px) {
-        padding-top: 20vw;
+        padding-top: 12rem;
         padding-left: 1rem;
         img{
         width:18vw;
-        height:12vw;
+        height:9rem;
         object-fit:cover;
         display:wrap
     }
@@ -151,7 +151,6 @@ export const TileImage2 = styled(motion.div)`
         height:35vw;
         }
     }
-
 `;
 
 export const TileImage3 = styled(motion.div)`
@@ -163,30 +162,27 @@ export const TileImage3 = styled(motion.div)`
         object-fit:cover;
     }
     @media (max-width: 1500px) {
-        padding-top: 5vw;
+        padding-top: 2rem;
         padding-left: 1rem;
         img{
         width:18vw;
-        height:12vw;
-        object-fit:cover;
-       
+        height:9rem;
+        object-fit:cover;   
     }
+
     @media (max-width: 700px) {
         padding-left: 55vw;
         img{
-        width:38vw;
-        height:52vw;
-        object-fit:cover;
-    }
+            width:38vw;
+            height:52vw;
+            object-fit:cover;
+        }
 }}
 `
 
 const LeftDiv = styled(motion.div)`
     width: 50%;
     background-color: #F2EBE4;
-    @media (max-width: 1500px) {
-        height: 60vh;
-    }
     @media (max-width: 700px) {
     height: 40vh;
     width: 100%;
@@ -196,9 +192,6 @@ const RightDiv = styled.div`
     width: 50%;
     float: right;
     background-color: #C4A484;
-    @media (max-width: 1500px) {
-        height: 60vh;
-    }
     @media (max-width: 700px) {
     float:bottom;
     width: 100%;
@@ -234,13 +227,13 @@ const DivText = styled(motion.div)`
     }
     .vl{
         border-left: 2px solid black;
-        height: 30vw;
+        height: 20rem;
         position: absolute;
     }}
     @media (max-width: 700px) {
     h1{
         font-size: 7vw;
-        padding-top: 44vw;
+        padding-top: 19rem;
     }
     p{
         font-size: 4vw;
