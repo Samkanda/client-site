@@ -184,7 +184,7 @@ const LeftDiv = styled(motion.div)`
     width: 50%;
     background-color: #F2EBE4;
     @media (max-width: 700px) {
-    height: 40vh;
+    height: 20rem;
     width: 100%;
 }
 `;
