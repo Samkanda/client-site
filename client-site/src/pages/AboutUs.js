@@ -16,7 +16,6 @@ const AboutUs = () => {
         <motion.div exit={{ scaleY: 0}} transition={{duration: .5}}>
             <AboutSection/>
             <ServicesSection/>
-            {/* <ContactForm/> */}
             <Gallary/>
             <Footer/>
         </motion.div>

@@ -2,12 +2,12 @@ import React from 'react'
 import { Row, Col } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import styled from 'styled-components';
-
-
+import {motion} from 'framer-motion';
+import { pageAnimation } from '../animation';
 
 export const ContactUs = () => {
     return (
-        <FormContainer>
+        <FormContainer exit={{ scaleY: 0}} transition={{duration: .5}}>
             <h1> Contact Us</h1>
             <p> Any question or remarks? Just write a message? </p>
             <LeftContainer>
@@ -22,13 +22,13 @@ export const ContactUs = () => {
                     <div className="form-group"> 
                         <label>
                         First Name:
-                        <input type="text" />
+                        <input class = "input" type="text" />
                         </label>
                     </div>
                     <div className="form-group"> 
                         <label>
                         Last Name:
-                        <input type="text" />
+                        <input class = "input" type="text" />
                         </label>
                     </div>
                 </Col>
@@ -38,13 +38,13 @@ export const ContactUs = () => {
                     <div className="form-group"> 
                         <label>
                             Email:
-                        <input type="text"  />
+                        <input class = "input" type="text"  />
                         </label>
                     </div>
                     <div className="form-group"> 
                         <label>
                             Phone Number:
-                        <input type="text" />
+                        <input class = "input" type="text" />
                         </label>
                     </div>
                 </Col>
@@ -104,7 +104,7 @@ const FormContainer = styled.div`
 const LeftContainer = styled.div`
     width: 35%;
     height: 100%;
-    background: #3E1F92;
+    background: #313833;
     float: left;
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
@@ -133,6 +133,7 @@ const RightContainer = styled.div`
         width: 100%;
         flex: 0 0 100%;
         padding-bottom: 2rem;
+        
     }
     .form-group{
         display: flex;
@@ -151,10 +152,14 @@ const RightContainer = styled.div`
             margin-right: 5px;
             
         }
+        .input{
+            width: 18vw;
+            
+        }
         input[type="text"] {
             background: rgba(255, 255, 255,.2);
             border: none; 
-            padding: 10px;
+            padding: 0px;
             font-size: 1.5rem;
             font-weight: 300;
             border-bottom: .2rem solid lightgray;
