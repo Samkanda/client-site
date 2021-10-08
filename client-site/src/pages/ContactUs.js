@@ -72,7 +72,7 @@ export const ContactUs = () => {
                         <label class="radio-label">
                             What type of your do you need?
                         </label>
-                        <input type="text" value='Text' />
+                        <input class = "input" type="text" value='Text' />
                     </div>
                     </Col>
                 </Row>
@@ -100,6 +100,10 @@ const FormContainer = styled.div`
         padding: 1rem;
         color: gray;
     }
+    @media (max-width: 1000px) {
+        width: 100%;
+        padding: 0px;
+        }
 `;
 const LeftContainer = styled.div`
     width: 35%;
@@ -112,6 +116,9 @@ const LeftContainer = styled.div`
     h1{
         font-size: 2rem;
         color: white;  
+        @media (max-width: 1000px) {
+            font-size: 1rem;
+        }
     }
     p{
         font-size: 1rem;
@@ -127,13 +134,15 @@ const RightContainer = styled.div`
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem;
     padding:2rem;
+    @media (max-width: 1000px) {
+        padding: .5rem;
+        }
     .col{
         display: flex;
         font-size: 1.2rem;
         width: 100%;
         flex: 0 0 100%;
         padding-bottom: 2rem;
-        
     }
     .form-group{
         display: flex;
@@ -141,6 +150,10 @@ const RightContainer = styled.div`
         flex-direction: column;
         flex: 0 1 100%;
         padding-right: 40px;
+        @media (max-width: 1000px) {
+        padding: 0px;
+        font-size: 10px;
+        }
         .radio-label{
             padding-bottom: 1rem;
         }
