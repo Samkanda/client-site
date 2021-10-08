@@ -37,7 +37,7 @@ export const ContactUs = () => {
                 <Col className="col"> 
                     <div className="form-group"> 
                         <label>
-                            Email:
+                            Email Address:
                         <input class = "input" type="text"  />
                         </label>
                     </div>
@@ -72,7 +72,7 @@ export const ContactUs = () => {
                         <label class="radio-label">
                             What type of your do you need?
                         </label>
-                        <input class = "input" type="text" value='Text' />
+                        <input class = "input" type="text"  />
                     </div>
                     </Col>
                 </Row>
@@ -152,7 +152,7 @@ const RightContainer = styled.div`
         padding-right: 40px;
         @media (max-width: 1000px) {
         padding: 0px;
-        font-size: 10px;
+        font-size: 3vw;
         }
         .radio-label{
             padding-bottom: 1rem;
