@@ -37,7 +37,7 @@ button{
         font-size: 4rem;
     }
     h3{
-        color:white;
+        color:black;
     }
     h4{
         font-weight: bold;

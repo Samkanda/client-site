@@ -42,7 +42,7 @@ const MovieDetails = () => {
     )};
 
 const Details = styled.div`
-color: white;
+color: black;
 `;
 const HeadLine = styled.div`
 min-height: 90vh;

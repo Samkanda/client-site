@@ -12,7 +12,7 @@ import {motion} from 'framer-motion';
 import { pageAnimation } from '../animation';
 const OurWork = () => {
     return (
-        <Work variants={pageAnimation} initial='hidden' animate='show' style={{background: "#fff"}} exit="exit">
+        <Work variants={pageAnimation} initial='hidden' animate='show' exit="exit">
             <Movie>
                 <h2>The Athlete</h2>
                 <div className="line"></div>
@@ -51,7 +51,7 @@ const Movie = styled.div`
     padding-bottom: 10rem;
     .line{
         height: 0.5rem;
-        background: #cccccc;
+        background: black;
         margin-bottom: 3rem;
     }
     img{

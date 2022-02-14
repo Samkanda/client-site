@@ -5,9 +5,10 @@ import styled from 'styled-components';
 import {motion} from 'framer-motion';
 import { pageAnimation } from '../animation';
 
+
 export const ContactUs = () => {
     return (
-        <FormContainer exit={{ scaleY: 0}} transition={{duration: .5}}>
+        <FormContainer variants={pageAnimation} initial='hidden' animate='show' exit="exit">
             <h1> Contact Us</h1>
             <p> Any question or remarks? Just write a message? </p>
             <LeftContainer>
@@ -78,7 +79,7 @@ export const ContactUs = () => {
                 </Row>
                 </form>
             </RightContainer>
-        </FormContainer>        
+        </FormContainer> 
     )
 }
 
