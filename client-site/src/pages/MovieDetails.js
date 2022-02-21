@@ -48,11 +48,9 @@ const HeadLine = styled.div`
 min-height: 90vh;
 padding-top: 20vh;
 position: relative;
+
 h2 {
-  position: absolute;
-  top: 10%;
-  left: 50%;
-  transform: translate(-50%, -10%);
+  text-align: center
 }
 img {
   width: 100%;

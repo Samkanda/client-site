@@ -21,6 +21,9 @@ const Boxx = styled(Box)`
   padding: 6rem;
   @media (max-width: 800px){
     padding: 4rem 0 4rem 2rem
+    button{
+      width: 1rem;
+    }
   }
 
 `;
