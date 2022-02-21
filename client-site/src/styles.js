@@ -19,7 +19,7 @@ export const About1 = styled.div`
     justify-content: space-between;
     padding: 5rem 10rem;
     color: white;
-    background-color:black;
+    background-color:pink;
 `;
 
 export const Description = styled.div`
@@ -65,4 +65,5 @@ export const TileImage = styled(motion.div)`
 export const Hide = styled.div`
     overflow: hidden;
 `;
+
 

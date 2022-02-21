@@ -51,7 +51,7 @@ const Movie = styled.div`
     padding-bottom: 10rem;
     .line{
         height: 0.5rem;
-        background: black;
+        background: pink;
         margin-bottom: 3rem;
     }
     img{

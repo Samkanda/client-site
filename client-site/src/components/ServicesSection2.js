@@ -1,13 +1,12 @@
 import React from 'react';
-//import Icons
 import three from '../img/33.jpg'
 import city from '../img/5.jpg'
 import castle from '../img/6.jpg'
-
 import styled from 'styled-components';
 import {motion} from 'framer-motion';
 import {useInView} from 'react-intersection-observer';
 import { useAnimation } from 'framer-motion';
+
 const ServicesSection = () => {
     const controls = useAnimation();
     const [element, view] = useInView({threshold: 0.3});
@@ -41,17 +40,13 @@ const Services = styled.div`
     row-gap: 25px;
     grid-template-columns: [col0] 3% [col1] 30% [colgap] 2% [col2] 22% [colgap] 2% [col3] 30%  [col4] 5%;
     grid-template-rows: [row0] 20px [row1-start] 300px [row1-end] 300px [third-line]  auto [last-line];
-
     @media (max-width: 500px){
         grid-template-columns: [col0] 3% [col1] 40% [colgap] 3% [col2] 40% [colgap] 3% [col4] 7%;
         grid-template-rows: [row0] 20px [row1-start] 100px [row1-end] 100px [third-line]  auto [last-line];
         background: linear-gradient(180deg, #F2EBE4 50%, #C4A484 50%);
         height: 45rem;
-
-
     }
 `;
-
 
 export const TileImage = styled(motion.div)`
     grid-column: col2;
@@ -81,7 +76,6 @@ export const TileImage2 = styled(motion.div)`
         max-width: 100%;
         object-fit: cover;
     }
-
 `;
 
 export const TileImage3 = styled(motion.div)`
@@ -125,10 +119,7 @@ const DivText = styled(motion.div)`
             margin-left: 1rem;
             text-align: center;
         }
-
-
 }
 `;
-
 
 export default ServicesSection;
