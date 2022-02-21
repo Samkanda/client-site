@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.js": "/Client-Site/static/js/main.33ed2684.chunk.js",
+    "main.js.map": "/Client-Site/static/js/main.33ed2684.chunk.js.map",
+    "runtime-main.js": "/Client-Site/static/js/runtime-main.2b6efdd3.js",
+    "runtime-main.js.map": "/Client-Site/static/js/runtime-main.2b6efdd3.js.map",
+    "static/css/2.4be38407.chunk.css": "/Client-Site/static/css/2.4be38407.chunk.css",
+    "static/js/2.48195b77.chunk.js": "/Client-Site/static/js/2.48195b77.chunk.js",
+    "static/js/2.48195b77.chunk.js.map": "/Client-Site/static/js/2.48195b77.chunk.js.map",
+    "index.html": "/Client-Site/index.html",
+    "static/css/2.4be38407.chunk.css.map": "/Client-Site/static/css/2.4be38407.chunk.css.map",
+    "static/js/2.48195b77.chunk.js.LICENSE.txt": "/Client-Site/static/js/2.48195b77.chunk.js.LICENSE.txt",
+    "static/media/33.7e393e8e.jpg": "/Client-Site/static/media/33.7e393e8e.jpg",
+    "static/media/5.70b6b75f.jpg": "/Client-Site/static/media/5.70b6b75f.jpg",
+    "static/media/6.7d75dd1a.jpg": "/Client-Site/static/media/6.7d75dd1a.jpg",
+    "static/media/Branding.3cf7f327.jpg": "/Client-Site/static/media/Branding.3cf7f327.jpg",
+    "static/media/Fashion.75579b36.jfif": "/Client-Site/static/media/Fashion.75579b36.jfif",
+    "static/media/Landmarks.29b63480.jpg": "/Client-Site/static/media/Landmarks.29b63480.jpg",
+    "static/media/athlete-small.9c7a85d4.png": "/Client-Site/static/media/athlete-small.9c7a85d4.png",
+    "static/media/athlete2.b216a5ad.png": "/Client-Site/static/media/athlete2.b216a5ad.png",
+    "static/media/film.7491387c.jpg": "/Client-Site/static/media/film.7491387c.jpg",
+    "static/media/good-times2.4ea1be17.jpg": "/Client-Site/static/media/good-times2.4ea1be17.jpg",
+    "static/media/goodtimes-small.94ab060d.png": "/Client-Site/static/media/goodtimes-small.94ab060d.png",
+    "static/media/home3.b891ca32.jpg": "/Client-Site/static/media/home3.b891ca32.jpg",
+    "static/media/portrait.04ec5a1d.jfif": "/Client-Site/static/media/portrait.04ec5a1d.jfif",
+    "static/media/the-racer2.580f15cd.jpg": "/Client-Site/static/media/the-racer2.580f15cd.jpg",
+    "static/media/theracer-small.51874213.png": "/Client-Site/static/media/theracer-small.51874213.png",
+    "static/media/wedding.3e550d34.jpg": "/Client-Site/static/media/wedding.3e550d34.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2b6efdd3.js",
+    "static/css/2.4be38407.chunk.css",
+    "static/js/2.48195b77.chunk.js",
+    "static/js/main.33ed2684.chunk.js"
+  ]
+}
